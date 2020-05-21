@@ -1,0 +1,208 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Karma', serif;
+
+}
+
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+/*============= cabecalho==============*/
+header{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	line-height: 1.5;
+	background-color: white;
+	padding: 7px 2%;
+	position: fixed;
+	z-index: 1;
+	font-size: 16px;
+	padding: 5px;
+}
+
+header h1{
+	font-weight: normal;
+}
+
+
+div.center{
+	text-align: center;
+}
+div.left{
+	float: left;
+}
+
+div.middle{
+	display: inline-block;
+}
+div.right{
+	float: right;
+}
+/*============== fim do cabecalho================*/
+
+/*==============inicio do conteudo ======================*/
+.conteudo-principal{
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+	border-top: 80px solid white;
+	margin: 0 auto;
+}
+
+section.principal{
+	width: 100%;
+	height: auto;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+div.img-wraper{	
+	width: 25%;
+	float: left;
+	border: 8px solid white;
+	text-align: center;
+	padding: 6px;
+}
+
+div.img-wraper h2{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+div.img-wraper p{
+	text-align: justify;
+}
+
+div.img{
+	width: 270px
+	height:405px;
+}
+div.img-wraper img{
+	width: 100%;
+}
+
+/*========== final do conteudo principal ======*/
+
+.center{
+	text-align: center;
+	width: 100%;
+}
+
+.container{
+	margin: 40px auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.container a{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	vertical-align: bottom;
+	background: white;
+	color: black;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 2.0;
+	text-decoration: none;
+}
+
+.container a:hover{
+	background-color: black;
+	color: white;
+
+}
+section.secundaria{
+	margin-top: 40px;
+	width: 100%;
+	height: auto;
+}
+
+
+section.about{
+	width: 100%;
+	padding: 50px 60px 100px;
+	margin: 80px auto;
+	max-width: 1200px;
+	text-align: center;
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+}
+
+section.about h3{
+	font-weight: 400;
+	font-size: 25px;
+	font-family: 'karma',sans-serif;
+}
+
+.img-chef{
+	margin-top: 40px;
+	display: inline-block;
+	width: 800px;
+	height: 533px;
+}
+
+img.chef{
+	width: 100%;
+}
+section.about h5{
+	font-weight: bold;
+	font-family: 'karma', sans-serif;
+	font-size: 25px;
+	margin-top: 15px;
+}
+section.about h6{
+	font-weight: 400;
+	font-family: 'karma', sans-serif;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+div.paragrafo{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	text-align: justify;
+	display: inline-block;
+}
+
+
+footer{
+	height: 100px;
+	width: 100%;
+}
+
+.wraper{
+	width: 33.33%;
+	height: auto;
+	float: left;
+	padding: 10px 30px;
+}
+.wraper p{
+	text-align: justify;
+}
+
+div.meio{
+	width: 100%;
+	height: 50%;
+}
+
+div.container-imagem{
+	width: 40px;
+	height: 40px;
+}
+div.container-imagem img{
+	width: 100%;
+}
